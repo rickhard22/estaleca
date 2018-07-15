@@ -1,0 +1,587 @@
+html{
+
+	height: 100%
+}
+
+
+
+body{
+font-family: 'Lato', sans-serif;
+	color: black;
+	height: 100%
+}
+
+
+
+h2 span{
+font-size: 27px;
+color: #a28630;
+text-transform: uppercase;
+background-color: black;
+padding: 5px;
+padding-top: 75px;
+
+}
+
+
+
+svg {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+}
+
+h3{
+font-size: 21px;
+}
+
+p{
+font-size: 14px;
+margin:0px;
+padding:0px;
+}
+
+.bold{
+font-weight: 900;
+}
+
+.italico{
+font-style: italic;
+}
+
+
+.allblack {
+	width: 100%;
+	background: black;
+}
+
+
+.menu {
+	display: block;
+	background: black;
+	height:95px;
+}
+
+
+.hide{
+	display: block;
+	background: black;
+	height:95px;
+}
+
+
+
+.collapse,.navbar-collapse,.navbar-nav{
+	background-color: black; 
+	
+}
+
+.navbar-toggler-icon{
+	background-color: black; 
+	color: white;
+	
+}
+
+
+
+
+.fa-facebook-f {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-soundcloud {
+    color: white;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link{color:white;}
+
+.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover{color:#a28630;}
+
+
+.gold{	transition: all .4s;
+ }
+
+.gold:hover{color:#a28630;}
+
+
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar{
+	background-color: #000000;
+}
+
+.navbar-collapse{
+	text-align: right;
+}
+
+.navbar.navbar {
+    padding:0;
+}
+
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    text-align: right;
+}
+
+li{
+	font-size: 13px;
+	text-transform: uppercase;
+
+
+}
+
+
+.up{
+	transition: all .4s;
+
+}
+
+.up:hover{
+	transform: translate(0px, -2px);
+}
+
+
+
+
+
+li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+li:last-child {
+  margin-right: 0;
+}
+
+li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+li:hover:after {
+  width: 100%;
+  background: #a28630;
+}
+
+
+.scale{
+	transition: all .4s;
+}
+
+.scale:hover{
+	transform: scale(1.5);
+
+}
+
+
+.gold{
+	transition: all .4s;
+}
+
+.gold:hover{
+	color: #a28630;
+;
+
+}
+
+ 
+
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.fitdiv {
+  transition: all 0.3s;
+}
+
+
+.fitdiv:hover {
+	transform: scale(1.1);
+}
+
+
+/*artistas efeitos*/
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(212,175,55,.5);
+}
+
+.teamcard:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*end artistas efeitos*/
+
+
+#sobre{
+  background-color: rgba(212,175,55, .1);
+  color: rgba(0,0,0,.5);
+}
+
+
+#sobre h2 span{
+font-size: 27px;
+color: #a28630;
+text-transform: uppercase;
+background-color: black;
+padding: 5px;
+padding-top: 75px;
+
+}
+
+#sobre .estaleca h3{
+font-size: 14px;
+color: black;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+#sobre h3 p{
+font-size: 14px;
+color: black;
+text-transform: lowercase;
+font-weight: 900;
+}
+
+
+#sobre p{
+color: black;
+
+}
+
+
+
+
+.flex-end{
+align-self: flex-end;
+}
+
+
+.servicos h3{
+	text-decoration: none;
+	  text-transform: uppercase;
+  color: black;
+  transition: all .4s;
+}
+
+.servicos a:hover{
+	text-decoration: none;
+  color: black;
+}
+
+.servicos h3{
+font-size: 12px;	
+font-weight: 900;
+
+}
+
+
+
+#contactos {
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+#contactos h2 span{
+font-size: 27px;
+color: #a28630;
+text-transform: uppercase;
+background-color: white;
+padding: 5px;
+padding-top: 75px;
+
+}
+
+
+
+
+#insta{
+  background-color: rgba(212,175,55,.1);
+}
+
+
+footer{
+	background-color: rgba(0,0,0,.9);
+
+
+}
+
+footer .privacidade p{
+  color:grey; 
+  font-size:7px; 
+  font-weight: 50px;
+text-align: justify; 
+} 
+
+.privacidade span{
+  color:grey; 
+  font-size:7px; 
+  font-weight: 50px;
+text-transform: uppercase;
+} 
+
+
+footer p{
+	color:white; 
+	font-size:9px;	
+	font-weight: 50px;
+} 
+
+footer span{
+	color:rgba(255,255,255,.2); 
+	font-size:9px;	
+	font-weight: 50px;
+} 
+
+.btn{
+	background-color: rgba(255,255,255,.3);
+	font-size:13px;	
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	transition: all .5s;
+} 
+
+.btn:hover {
+	background-color: #a28630;
+	font-size:13px;	
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+} 
+
+.copy{
+	background-color: rgba(255,255,255,.1); 
+
+
+}
+
+
+#novidades{
+  background-color: rgba(212,175,55, .1);
+  color: rgba(0,0,0,.5);
+}
+
+
+.crop {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+}
+.crop img {
+    height: auto;
+    width: auto;
+}
+
+
+#social-links-artists .fa-facebook-f {
+    color: black;
+}
+
+#social-links-artists .fa-instagram {
+color: black;}
+
+
+#social-links-artists .fa-twitter {
+color: black;}
+
+#social-links-artists .fa-soundcloud {
+color: black;}
+
+#social-links-artists .fa-bandcamp {
+color: black;}
+
+
+#social-links-artists .fa-itunes-note {
+color: black;}
+
+#social-links-artists .fa-spotify {
+color: black;}
+
+#social-links-artists .fa-youtube {
+color: black;}
+
+#social-links-artists .fa-vimeo-v {
+color: black;}
+
+
+#social-links-artists .fa-globe{
+color: black;}
+
+
+#social-links-artists .fa-globe:hover {
+color:#a28630;}
+
+#social-links-artists .fa-itunes-note:hover {
+color:#a28630;}
+
+#social-links-artists .fa-spotify:hover {
+color:#a28630;}
+
+#social-links-artists .fa-youtube:hover {
+color:#a28630;}
+
+
+
+#social-links-artists .fa-bandcamp:hover {
+color:#a28630;}
+
+
+#social-links-artists .fa-facebook-f:hover {
+color:#a28630;}
+
+#social-links-artists .fa-instagram:hover {
+color:#a28630;}
+
+#social-links-artists .fa-twitter:hover {
+color:#a28630;}
+
+#social-links-artists .fa-soundcloud:hover {
+color:#a28630;}
+
+
+.menuartistas h3{
+font-size: 13px;
+}
+
+
+.fa-youtube {
+color: black;}
+
+.fa-vimeo-v {
+color: black;}
+
+
+
+.scalesmall{
+  transform: scale(.6);
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.shrink{
+font-size: 11px;}
+
+.mp{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand img{
+transition: all .4s;
+}
+
+
+.social-links svg{
+transition: all .4s;
+}
+
+
+
+
+video { 
+   width:100%;
+   height:auto;
+}
+
+
+
+input{ 
+  text-decoration: none;
+  background-color: #a28630;
+  color: white;
+  border-radius: 25px;
+}
+
+
+
+input[placeholder], [placeholder], *[placeholder] {
+  text-decoration: none;
+  background-color: #a28630;
+  color: white;
+  border-radius: 25px;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+::-moz-selection {
+  background-color: #a28630;
+  color: white;
+}
+
+::selection {
+  background-color: #a28630;
+  color: white;
+}
+
+
+
+
+.creditos-fotos p{
+  color:grey; 
+  font-size:11px; 
+  font-weight: 50px;
+} 
+
